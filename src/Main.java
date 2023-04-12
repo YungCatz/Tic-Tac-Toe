@@ -99,6 +99,7 @@ public class Main {
             System.out.println("\n🔴 Bot Won 🔴\n");
         }
     }
+
     public static void main(String[] args) {
         OpponentLogic opponentLogic = new OpponentLogic();
         consoleOutput.outputInConsole();
