@@ -15,7 +15,15 @@ public class ConsoleOutput {
         arr[2][1] = blank;
         arr[2][2] = blank;
     }
-
+    public void example() {
+        System.out.println("\n⸺⸺⸺⸺⸺⸺⸺⸺⸺\n");
+        System.out.println("         " + 1 + " ┃ " + 2 + " ┃ " + 3 + " ");
+        System.out.println("        ━━━╋━━━╋━━━");
+        System.out.println("         " + 4 + " ┃ " + 5 + " ┃ " + 6 + " ");
+        System.out.println("        ━━━╋━━━╋━━━");
+        System.out.println("         " + 7 + " ┃ " + 8 + " ┃ " + 9 + " ");
+        System.out.println("\n⸺⸺⸺⸺⸺⸺⸺⸺⸺\n");
+    }
     public void outputInConsole() {
         System.out.println("\n⸺⸺⸺⸺⸺⸺⸺⸺⸺\n");
         System.out.println("         " + arr[0][0] + " ┃ " + arr[0][1] + " ┃ " + arr[0][2] + " ");

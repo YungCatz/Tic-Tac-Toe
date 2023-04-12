@@ -102,7 +102,7 @@ public class Main {
 
     public static void main(String[] args) {
         OpponentLogic opponentLogic = new OpponentLogic();
-        consoleOutput.outputInConsole();
+        consoleOutput.example();
         UserInputs userInputs = new UserInputs();
 
         //first Turn
